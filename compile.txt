@@ -1,0 +1,10 @@
+CS1653 Project 2
+Kyle Tanczos, Rob McDermot, Max Sibilla
+compile.txt
+
+
+To compile the code, enter into the directory on yout local machine where all 
+the submitted files are contained and enter:
+		> javac *.java
+		
+This will compile all the .java files.

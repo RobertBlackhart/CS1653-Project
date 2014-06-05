@@ -1,0 +1,30 @@
+CS1635 Project 2
+Kyle Tanczos, Rob McDermot, Max Sibilla
+usage.txt
+
+	How to use the system:
+		First, you need to start the Group server and File server.  To do this open up 
+		two terminals.  In the first terminal, enter:
+				>java RunGroupServer
+		
+		This will run the group server on the first terminal.  If it is your first time, 
+		you will be prompted to create the first user.  This user will be an admin on 
+		the group server.
+			Then, on the second terminal, enter:
+				>java RunFileServer
+		This will run the file server on the second server.  You now have both servers up and operational.
+		
+
+		To connect to the group server, open up another terminal.  In this terminal, enter:
+				>java ClientApp
+		First, you must enter in a username of a registered user. Second, you must enter in the IP Address 
+		of the server you want to connect to.  If you are running via the Windows cmd line, the ip address is
+		"localhost".  After these two steps, you will be connected to the Group Server.  Enter "HELP" to recieve instructions
+		on proper syntax of valid operations supported by the Group Server.
+		
+		To connect to the file server, open up another terminal.  In this terminal, enter:
+				>java FileClientApp
+		First, you must enter in a username of a registered user. Second, you must enter in the IP Address 
+		of the server you want to connect to.  If you are running via the Windows cmd line, the ip address is
+		"localhost".  After these two steps, you will be connected to the File Server.  Enter "HELP" to recieve instructions
+		on proper syntax of valid operations supported by the file server.
